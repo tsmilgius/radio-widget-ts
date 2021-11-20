@@ -1,0 +1,24 @@
+.bottombar {
+  min-height: 9rem;
+  border-top: 1px solid #535661;
+  background-color: #22222b;
+}
+
+.textContainer {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.playing {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: #eeae61;
+}
+
+.station {
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #9ca5b6;
+}

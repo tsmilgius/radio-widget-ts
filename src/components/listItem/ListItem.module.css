@@ -1,0 +1,43 @@
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.2rem 0 1.2rem 0;
+  cursor: pointer;
+}
+
+.listContainer {
+  border-bottom: 1px solid #4c4f5b;
+}
+
+.listContainer:last-child {
+  border-bottom: none;
+}
+
+.expanded {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.stationName {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #9ca5b6;
+}
+
+.stationFrequency {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #9ca5b6;
+}
+
+.img {
+  width: 12rem;
+  height: 12rem;
+  border: 2px solid #9ca5b6;
+  border-radius: 50%;
+}

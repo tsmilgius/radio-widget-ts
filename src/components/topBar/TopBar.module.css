@@ -1,0 +1,17 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #eeae61;
+}
+
+.title {
+  font-weight: 750;
+  padding: auto;
+  font-size: 2.2em;
+  font-family: 'Roboto', sans-serif;
+  color: #ecebeb;
+}

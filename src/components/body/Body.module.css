@@ -1,0 +1,19 @@
+.body {
+  height: 50vh;
+  padding: 3rem 2rem;
+  overflow: auto;
+  background-color: #2e2e39;
+}
+
+.loadingContainer {
+  text-align: center;
+  font-weight: 750;
+  padding: auto;
+  font-size: 2.2em;
+  font-family: 'Roboto', sans-serif;
+  color: #ecebeb5d;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
