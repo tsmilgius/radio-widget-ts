@@ -12,4 +12,4 @@ https://tsmilgius.github.io/radio-widget-ts/
 >Rest of the buttons should be clickable but it should trigger no action.
 
 > TODO:
-`Add more tests tests`
+`Add more tests`
