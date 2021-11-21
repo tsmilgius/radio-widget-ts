@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/radio-widget-ts/static/css/main.68466ba0.chunk.css",
+    "main.js": "/radio-widget-ts/static/js/main.eb7d265c.chunk.js",
+    "main.js.map": "/radio-widget-ts/static/js/main.eb7d265c.chunk.js.map",
+    "runtime-main.js": "/radio-widget-ts/static/js/runtime-main.e8f2ded0.js",
+    "runtime-main.js.map": "/radio-widget-ts/static/js/runtime-main.e8f2ded0.js.map",
+    "static/js/2.90ae5006.chunk.js": "/radio-widget-ts/static/js/2.90ae5006.chunk.js",
+    "static/js/2.90ae5006.chunk.js.map": "/radio-widget-ts/static/js/2.90ae5006.chunk.js.map",
+    "index.html": "/radio-widget-ts/index.html",
+    "static/css/main.68466ba0.chunk.css.map": "/radio-widget-ts/static/css/main.68466ba0.chunk.css.map",
+    "static/js/2.90ae5006.chunk.js.LICENSE.txt": "/radio-widget-ts/static/js/2.90ae5006.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8f2ded0.js",
+    "static/js/2.90ae5006.chunk.js",
+    "static/css/main.68466ba0.chunk.css",
+    "static/js/main.eb7d265c.chunk.js"
+  ]
+}
