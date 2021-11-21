@@ -1,14 +1,13 @@
 import { put, takeLatest, call } from 'redux-saga/effects';
-import { getStations, setStationsLoading } from '../reducers/radioSlice';
+import { getStations, setStationsLoading, setFetchFailed } from '../reducers/radioSlice';
 import { fetchDemoData } from '../demoData/stationList';
-import { IStation } from '../types/types';
 
-export function* getStationsSaga() {
+export function* getStationsSaga() : any {
   try {
-    const stations: IStation[] = yield call(fetchDemoData);
+    const stations = yield call(fetchDemoData);
     yield put(getStations(stations));
   } catch (error) {
-    //fail silently
+    yield put(setFetchFailed());
   }
 }
 

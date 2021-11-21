@@ -28,12 +28,14 @@ describe('radio reducer', () => {
     selectedStation: null,
     stations: [],
     isLoading: false,
+    isFetchFailed: false,
   };
   it('should handle initial state', () => {
     expect(radioReducer(undefined, { type: 'unknown' })).toEqual({
       selectedStation: null,
       stations: [],
       isLoading: false,
+      isFetchFailed: false,
     });
   });
   it('should handle station list is loading', () => {
@@ -42,6 +44,7 @@ describe('radio reducer', () => {
       selectedStation: null,
       stations: [],
       isLoading: true,
+      isFetchFailed: false,
     });
   });
   it('should get station list array and update state', () => {
@@ -50,6 +53,7 @@ describe('radio reducer', () => {
       selectedStation: null,
       stations: stations,
       isLoading: false,
+      isFetchFailed: false,
     });
   });
   it('should handle station selection', () => {
@@ -58,6 +62,7 @@ describe('radio reducer', () => {
       selectedStation: stations[0],
       stations: [],
       isLoading: false,
+      isFetchFailed: false,
     });
   });
 });

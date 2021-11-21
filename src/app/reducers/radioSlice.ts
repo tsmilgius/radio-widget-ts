@@ -6,12 +6,14 @@ export interface IState {
   selectedStation: IStation | null;
   stations: IStation[];
   isLoading: boolean;
+  isFetchFailed: boolean;
 }
 
 const initialState: IState = {
   selectedStation: null,
   stations: [],
   isLoading: false,
+  isFetchFailed: false
 };
 
 export const radioSlice = createSlice({
@@ -35,10 +37,13 @@ export const radioSlice = createSlice({
         state.selectedStation = action.payload;
       }
     },
+    setFetchFailed: (state) => {
+      state.isFetchFailed = true
+    }
   },
 });
 
-export const { setStationsLoading, getStations, setSelectedStation } =
+export const { setStationsLoading, getStations, setSelectedStation, setFetchFailed } =
   radioSlice.actions;
 export const selectIsLoading = (state: RootState) => state.radio.isLoading;
 export const selectStationActive = (state: RootState) =>

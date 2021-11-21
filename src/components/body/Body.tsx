@@ -21,7 +21,7 @@ const Body: React.FC = () => {
   };
 
   return (
-    <div className={style.body}>
+    <div className={style.body} data-testid="body-container">
       {isLoading ? (
         <div className={style.loadingContainer}>Loading stations ...</div>
       ) : null}
